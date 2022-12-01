@@ -5,17 +5,31 @@
 
 ## Planning
 
-### Include diagrams, pictures, or sketches.  
+
 ### Include any iterations of versions of your plan.  
 ### Think about how your final product will function.  
 ### What materials will you need and how much?  
 ### What do you still need to learn for your project?
 ### What is the definition for "success" in your project? Don't forget to include safety concerns and your countermeasures for them. 
-
-
 ### Scope.  Is your project appropriately ambitious?  I want your project to stretch you.  I promise you will enjoy it more if it does.  However, I don't want your project to cause you to flee Engineering never to return.  There's a sweet spot in there.
 
-### Schedule.  Your plan must include a thoughtful and appropriately ambitious schedule of weekly milestones.  Be specific.  "This week we will finish testing the accelerometer."  "This week, we will assemble the box and mount the Pi."  Each week, we (me and you) will use this plan to decide whether you are on track or not.  And this will have a large impact on your grade.  If we agree that your project will take 6 weeks and it takes 20, it will be very difficult to receive a good grade, regardless how awesome it is.
+### Schedule
+
+-December 14th, build a test rocket and launch on block day
+-Jan 3rd, start cad for E rocket, research code for active thermometer and altimeter
+-January 25th, Have cad finished for a E rocket/Have code started 
+-February 15th, have code done for thermometer
+-March 1st, have code done for altimeter
+-March 15, have code for active readings on ground during launch
+-March 29, have E rocket cad printed/cut/assembled 
+-April 12, launch and readings
+-April 19, several successful launches with readings
+-April 26, Compile recording and documentation
+-Have rocket and final launch complete April 30th 2023
+-Do any final tweaks
+-Project due May 19th 2023
+
+
 
 ### Diagrams of your planned design (CAD or hand sketched)
 ### Block diagrams of how your code will operate
