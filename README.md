@@ -6,43 +6,45 @@
 ## Planning
 
 
-### Include any iterations of versions of your plan.  
-### Think about how your final product will function.  
 ### What materials will you need and how much?  
+
+#### We will likely need to use 3d printing material, acrylic, a rocket motor, a guiding system, an altimeter, a thermometer, a Rasberry pi board, a launch site off of school grounds, and lastly, a small camera.   
+
 ### What do you still need to learn for your project?
-### What is the definition for "success" in your project? Don't forget to include safety concerns and your countermeasures for them. 
-### Scope.  Is your project appropriately ambitious?  I want your project to stretch you.  I promise you will enjoy it more if it does.  However, I don't want your project to cause you to flee Engineering never to return.  There's a sweet spot in there.
+
+#### We will need to learn how to code readings from a thermometer and altimeter to be seen in real-time on the ground. We will also need to learn how to design a rocket to survive high altitude and pressure along with its instruments.
+
+### What is the definition for "success" in your project? 
+
+#### For us to consider our project succesful we must reach a minimum altitude of 800ft, capture altitude, temperature, and hopefully a video of the launch. Our main safety concern will be the launch itself; we will have to launch at a secondary location to prevent any harm to surrounding buildings.
+
+### Scope
+
+#### We have gained knowledge over the past four years of engineering to make this project plausible. There is still a lot we have to learn for this project. We will have to further our coding knowledge and learn how to design a lasting rocket. There will also be lots of math calculations to determine the max weight. With all we already know, and what we have to learn, this project is perfect for testing our limits while also being able to complete the assignment.
+
+### Risk Mitigation
+
+#### To mitigate risk, we will have to launch the higher engine prototypes and final rocket in a field not at the school to allow a safe launch that doesn't affect other people or things. We will also discuss designs that effectively survive at high altitudes and pressure to preserve equipment and minimize fallout. Lastly, we will have a safely executed liftoff without overly excessive explosions/fire
 
 ### Schedule
 
--December 14th, build a test rocket and launch on block day
--Jan 3rd, start cad for E rocket, research code for active thermometer and altimeter
--January 25th, Have cad finished for a E rocket/Have code started 
--February 15th, have code done for thermometer
--March 1st, have code done for altimeter
--March 15, have code for active readings on ground during launch
--March 29, have E rocket cad printed/cut/assembled 
--April 12, launch and readings
--April 19, several successful launches with readings
--April 26, Compile recording and documentation
--Have rocket and final launch complete April 30th 2023
--Do any final tweaks
--Project due May 19th 2023
+####-December 14th, build a test rocket and launch on block day
+####-Jan 3rd, start cad for E rocket, research code for active thermometer and altimeter
+####-January 25th, Have cad finished for a E rocket/Have code started 
+####-February 15th, have code done for thermometer
+####-March 1st, have code done for altimeter
+####-March 15, have code for active readings on ground during launch
+####-March 29, have E rocket cad printed/cut/assembled 
+####-April 12, launch and readings
+####-April 19, several successful launches with readings
+####-April 26, Compile recording and documentation
+####-Have rocket and final launch complete April 30th 2023
+####-Do any final tweaks
+####-Project due May 19th 2023
+
+## First test launch/What went wrong
 
 
 
-### Diagrams of your planned design (CAD or hand sketched)
-### Block diagrams of how your code will operate
-### Bill of materials for the overall project
-### Risk Mitigation: Pi in the Sky projects involve projectiles, which carry inherent risk. Make sure you discuss how you are going to mitigate these risks. Think about the problem from all sides -- risk mitigation may include making sure there is enough open space around the launch, making sure everyone involved has the proper PPE (ex: safety glasses), or even that the materials (rocket motors, hairspray, etc) are stored safely. Some projects may require a safety test plan. For example, if I was to build a compressed air cannon that would operate at 100 psi, I would do several test launches at 20 psi, 40 psi, and then 60 psi. 
 
-### Identify problem or goal
-### Identify resources and constraints
-### Brainstorm ideas
-### Pick a solution
-### Develop an initial design (pencil and paper, CAD, etc.)
-### Construct a prototype
-### Test your design
-### Refine/optimize your design
-### Present finished product
 
