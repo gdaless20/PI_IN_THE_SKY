@@ -28,19 +28,19 @@
 
 ### Schedule
 
-####-December 14th, build a test rocket and launch on block day
-####-Jan 3rd, start cad for E rocket, research code for active thermometer and altimeter
-####-January 25th, Have cad finished for a E rocket/Have code started 
-####-February 15th, have code done for thermometer
-####-March 1st, have code done for altimeter
-####-March 15, have code for active readings on ground during launch
-####-March 29, have E rocket cad printed/cut/assembled 
-####-April 12, launch and readings
-####-April 19, several successful launches with readings
-####-April 26, Compile recording and documentation
-####-Have rocket and final launch complete April 30th 2023
-####-Do any final tweaks
-####-Project due May 19th 2023
+#### -December 14th, build a test rocket and launch on block day
+#### -Jan 3rd, start cad for E rocket, research code for active thermometer and altimeter
+#### -January 25th, Have cad finished for a E rocket/Have code started 
+#### -February 15th, have code done for thermometer
+#### -March 1st, have code done for altimeter
+#### -March 15, have code for active readings on ground during launch
+#### -March 29, have E rocket cad printed/cut/assembled 
+#### -April 12, launch and readings
+#### -April 19, several successful launches with readings
+#### -April 26, Compile recording and documentation
+#### -Have rocket and final launch complete April 30th 2023
+#### -Do any final tweaks
+#### -Project due May 19th 2023
 
 ## First test launch/What went wrong
 
