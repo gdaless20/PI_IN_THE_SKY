@@ -44,6 +44,8 @@
 
 ## First test launch/What went wrong
 
+### When building this A motor model rocket, we were initially not going to launch it and were making it as a prototype for our final project and to get a feel for missiles. That being said, when we decided to launch the rocket, we started using superglue to be more durable and stable for launching. The original glue and superglue did not withstand the launch, and the engine shot out the back of the rocket while in the air. The parachute was packed in too tightly and not connected to the missile, so it didn't deploy, and after losing the engine, the rocket plummeted to the ground and landed on its nose. 
+
 
 ![hytghfytrh](urmom/RocketLaunch1.gif)
 
