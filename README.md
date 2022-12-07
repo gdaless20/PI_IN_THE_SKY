@@ -53,3 +53,7 @@
 ![hytghfytrh](urmom/IMG-4786.jpg)
 
 
+## Block Diagram
+
+![](urmom/block.jpg) 
+
