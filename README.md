@@ -56,4 +56,5 @@
 ## Block Diagram
 
 ![](urmom/block.jpg) 
+<img scr="urmom/block.jpg" alt="" width= "250" height= "400" />
 
