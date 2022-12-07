@@ -3,6 +3,18 @@
 #### Gaby + Ellen 
 #### *Blowing stuff up*
 
+
+
+## Table of Contents
+* [Planning](#Planning)
+* [Schedule](#Schedule)
+
+
+
+
+
+
+
 ## Planning
 
 
