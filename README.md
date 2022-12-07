@@ -8,7 +8,6 @@
 ## Table of Contents
 * [Planning](#Planning)
 * [Schedule](#Schedule)
-* [Planned_Designs/Ideas](#Planned_Designs/Ideas)
 
 
 
@@ -71,6 +70,6 @@
 ![](urmom/block.jpg)
 
 
-## Planned_Designs/Ideas
+## Planned Designs/Ideas
 
 ![](urmom/rock.jpg)
