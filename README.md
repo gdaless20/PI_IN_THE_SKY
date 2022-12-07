@@ -71,6 +71,6 @@
 ![](urmom/block.jpg)
 
 
-## Planned_design/ideas
+## Planned_Designs/Ideas
 
 ![](urmom/rock.jpg)
