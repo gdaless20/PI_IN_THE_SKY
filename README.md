@@ -8,7 +8,7 @@
 ## Table of Contents
 * [Planning](#Planning)
 * [Schedule](#Schedule)
-* [Planned Designs/Ideas](#Planned_Designs/Ideas)
+* [Planned_Designs/Ideas](#Planned_Designs/Ideas)
 
 
 
