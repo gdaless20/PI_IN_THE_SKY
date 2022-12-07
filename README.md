@@ -68,3 +68,8 @@
 ## Block Diagram
 
 ![](urmom/block.jpg)
+
+
+## Diagrams of planned design/ideas
+
+![](urmom/rock.jpg)
