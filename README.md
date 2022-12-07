@@ -67,7 +67,7 @@
 
 ## Block Diagram
 
-![](urmom/block.jpg)
+![](urmom/blok.jpg)
 
 
 ## Planned Designs/Ideas
