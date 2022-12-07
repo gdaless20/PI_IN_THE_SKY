@@ -20,7 +20,7 @@
 
 ### What materials will you need and how much?  
 
-#### We will likely need to use 3d printing material, acrylic, a rocket motor, a guiding system, an altimeter, a thermometer, a Rasberry pi board, a launch site off of school grounds, and lastly, a small camera.   
+#### We will likely need to use 3d printing material, acrylic, a midpower rocket motor, a guiding system, an altimeter, a thermometer, a Rasberry pi board, a launch site off of school grounds, and lastly, a small camera.   
 
 ### What do you still need to learn for your project?
 
