@@ -15,7 +15,7 @@
 
 
 
-## Planning
+## Planning.
 
 
 ### What materials will you need and how much?  
