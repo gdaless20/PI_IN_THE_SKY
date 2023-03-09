@@ -76,7 +76,7 @@
 
 ## Project Progression
 
-#### We knew we had a lot to get done in a short period of time. Due to our flight field restrictions we had to find a safe launch site that was large enough to safely launch our rocket. We had difficulty finding a place to launch that wouldnt require a membership or require 100$ for a shitty field that was nowhere near the required size. This resulted in us reaching out to a friend who lives in christanburg who lives on a farm. He had some date restrictions as he was leaving for varius trips meaning the time we had to complete our project was signifcantly shorter than expected. Our orriginal planned schedule was nowhere near the reality of our projects timeline. Below is the rough timeline of start to finish. 
+#### ***We knew we had a lot to get done in a short period of time. Due to our flight field restrictions we had to find a safe launch site that was large enough to safely launch our rocket. We had difficulty finding a place to launch that wouldnt require a membership or require 100$ for a shitty field that was nowhere near the required size. This resulted in us reaching out to a friend who lives in christanburg who lives on a farm. He had some date restrictions as he was leaving for varius trips meaning the time we had to complete our project was signifcantly shorter than expected. Our orriginal planned schedule was nowhere near the reality of our projects timeline. Below is the rough timeline of start to finish.***
 
 ### Schedule
 
@@ -93,5 +93,11 @@
 
 #### We built a capsule to hold our wiring which is shown below. We printed a smaller version for testing purposes then printed the final for our rocket. There were no major issues with this and it was the first thing we finished.
 
+![](urmom/Casingshaftimage.PNG)                                                              
+![](urmom/Casingtopimage.PNG)
+
+##### ***Im not even going to lie we were table at documentation towards the beginning of the project. We were super busy and documenting was the last thing on our mind. This bit us in the ass big-time later on.***
+
+#### Next we needed to do our wiring and coding. Ellen was primarily on coding and I was incharge of the wiring and soldering. Mistake number 1, when i was wiring i had a random diagram on a random piece of paper. That paper was then lost which is why the original wiring diagram will not be in this github. This is the wiring diagram that we drew when we had to redo our circuitboard (***We'll get to why that is later***).
 
 
