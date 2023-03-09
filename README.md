@@ -28,7 +28,7 @@
 
 ### What is the definition for "success" in your project? 
 
-#### For us to consider our project succesful we must reach a minimum altitude of 800ft, capture altitude, temperature, and hopefully a video of the launch. Our main safety concern will be the launch itself; we will have to launch at a secondary location to prevent any harm to surrounding buildings.
+#### For us to consider our project succesful we must capture altitude, temperature, and video of the launch. Our main safety concern will be the launch itself; we will have to launch at a secondary location to prevent any harm to surrounding buildings.
 
 ### Scope
 
@@ -73,3 +73,5 @@
 ## Planned Designs/Ideas
 
 ![](urmom/rock.jpg)
+
+## Project Progression
