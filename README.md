@@ -101,3 +101,77 @@
 #### Next we needed to do our wiring and coding. Ellen was primarily on coding and I was incharge of the wiring and soldering. Mistake number 1, when i was wiring i had a random diagram on a random piece of paper. That paper was then lost which is why the original wiring diagram will not be in this github. This is the wiring diagram that we drew when we had to redo our circuitboard (***We'll get to why that is later***).
 
 
+
+### Code
+
+``` python
+import time #imports
+import board
+import digitalio
+import adafruit_mpl3115a2
+import busio
+import random
+
+button = digitalio.DigitalInOut(board.GP16) #adds in the button
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP #incorperates the button into the circuit
+sda_pin = board.GP0  #sets up i2c
+scl_pin = board.GP1
+i2c = busio.I2C(scl_pin, sda_pin)
+sensor = adafruit_mpl3115a2.MPL3115A2(i2c) 
+
+time_list = []
+altitude_list = []  #sets it up so values are read in lists (organization)
+temperature_list = []
+new_data = 0
+
+led = digitalio.DigitalInOut(board.LED) 
+led.direction = digitalio.Direction.OUTPUT  # if we have code working and power going to the raspberry pi the onboard led will turn on, our way of eyeball checking our code is working/on
+led.value = True 
+
+while True: #if the button/switch is pressed this will happen
+
+
+     if button.value == False:
+         if new_data == 0:
+            data_time = time.monotonic()
+            new_data = 1
+         altitude = sensor.altitude #read altitude
+         altitude_list.append(sensor.altitude)
+         print("Altitude: {0:0.3f} meters".format(altitude)) #print altitude readings
+         temperature = sensor.temperature
+         temperature_list.append(sensor.temperature) #saves values for collection later
+         print("Temperature: {0:0.3f} degrees Celsius".format(temperature))
+         time_list.append(time.monotonic())
+         time.sleep(1.0) #make it easier to read vaues if it doesn't write them every second, more organization
+         
+         if time.monotonic()-data_time>20: # CHANGE THIS must take less than this time to launch after switch flipped
+            if abs(altitude_list[-1]-altitude_list[-10])<2: # CHANGE THIS rocket has landed
+               break   #stop code taking values
+#
+
+#store data to pico in csv
+print(time_list)
+print(altitude_list)
+print(temperature_list)
+
+with open(f"/{int(1000*random.random())}.txt", "a") as datalog:
+        for i in range(len(time_list)):
+            input_values = f" {time_list[i]}, {altitude_list[i]}, {temperature_list[i]}"
+            datalog.write('{}\n'.format(input_values))  #save all time, altitude, temperature values in seperate lines in pico
+            datalog.flush()
+#
+
+```
+
+### Code Review
+
+Coding is not for the weak, it takes a lot of time and frustration and Gaby had to bribe me with food so that she could do cad instead. In the begininning I had no idea how to code, we started out working on the "individual" assignments together as a team because Gaby could wire and I would mess around with the code until it worked; but we still didn't really understand or know how to do it. When we first planned out our rocket project we decided that using Raspberry PI and pico would be the best way to get a good grade and make our rocket read values. We originally thought of using an altimeter and a thermometer so we could see the temperature as it launched into the sky and could see how high it went at what speed. After putting in around 1 minute worth of research we realized an altimeter could read temperature, altitude and pressure- something almost everyone else knew but whatever. So we ended up using an altimeter, pico, and raspberrypi. 
+
+Now for the juicy stuff:
+
+In order to save code to our pico when it wasn't attatched to a computer we decided to use boot.py . This would essentially 
+allow us to either write and save code OR read and take values while saving/collecting them for later viewing. The way you could do this on a normal circuitboard would be to use a single wire and take one end out or put it back in for whichever function you needed. As ours was in a rocket we couldn't do that, and decided to use 2 wires attached to a swtich. When the switch was flipped one way we would be in code mode and could write and save code as we pleased (this is also how you see the values you captured while running). When flipped the other way we woud run and save the code to the pico. In order to see the values captured you have to be in code mode and plug the pico into a computer. Open files and in the circuitpy folder you should find a file titled by a random 3 digit number (261, 883, 448) that contains all the readings. Something important to remember is when flipping, you need to flip to data mode either before you unplug from the computer or before you add the battery. You can't change from code mode to data mode while there is power running to the pico, if you do that you won't actually change modes and your values will not save. 
+
+
+
