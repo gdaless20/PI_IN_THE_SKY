@@ -8,7 +8,9 @@
 ## Table of Contents
 * [Planning](#Planning)
 * [Schedule](#Schedule)
-
+* [Code Review](#Code_Review)
+* [Code 1](#Code_1)
+* [Project progression p1](#Project_progression_p1)
 
 
 
@@ -74,7 +76,7 @@
 
 ![](urmom/rock.jpg)
 
-## Project Progression
+## Project_Progression_p1
 
 #### ***We knew we had a lot to get done in a short period of time. Due to our flight field restrictions we had to find a safe launch site that was large enough to safely launch our rocket. We had difficulty finding a place to launch that wouldnt require a membership or require 100$ for a shitty field that was nowhere near the required size. This resulted in us reaching out to a friend who lives in christanburg who lives on a farm. He had some date restrictions as he was leaving for varius trips meaning the time we had to complete our project was signifcantly shorter than expected. Our orriginal planned schedule was nowhere near the reality of our projects timeline. Below is the rough timeline of start to finish.***
 
@@ -102,7 +104,7 @@
 
 
 
-### Code
+### Code 1
 
 ``` python
 import time #imports
