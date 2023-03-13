@@ -61,9 +61,9 @@
 
 ![hytghfytrh](urmom/RocketLaunch1.gif)
 
-![hytghfytrh](urmom/IMG-4788.jpg)
+![hytghfytrh](urmom/rocket1.jpg)
 
-![hytghfytrh](urmom/IMG-4786.jpg)
+![hytghfytrh](urmom/rocket2.jpg)
 
 
 ## Block Diagram
