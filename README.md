@@ -104,7 +104,7 @@
 
 
 
-### Code 1
+### Code_1
 
 ``` python
 import time #imports
@@ -166,7 +166,7 @@ with open(f"/{int(1000*random.random())}.txt", "a") as datalog:
 
 ```
 
-### Code Review
+### Code_Review
 
 Coding is not for the weak, it takes a lot of time and frustration and Gaby had to bribe me with food so that she could do cad instead. In the begininning I had no idea how to code, we started out working on the "individual" assignments together as a team because Gaby could wire and I would mess around with the code until it worked; but we still didn't really understand or know how to do it. When we first planned out our rocket project we decided that using Raspberry PI and pico would be the best way to get a good grade and make our rocket read values. We originally thought of using an altimeter and a thermometer so we could see the temperature as it launched into the sky and could see how high it went at what speed. After putting in around 1 minute worth of research we realized an altimeter could read temperature, altitude and pressure- something almost everyone else knew but whatever. So we ended up using an altimeter, pico, and raspberrypi. 
 
