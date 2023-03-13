@@ -8,10 +8,9 @@
 ## Table of Contents
 * [Planning](#Planning)
 * [Schedule](#Schedule)
-* [Code Review](#Code_Review)
-* [Code 1](#Code_1)
 * [Project progression p1](#Project_progression_p1)
-
+* [Code 1](#Code_1)
+* [Code Review](#Code_Review)
 
 
 
