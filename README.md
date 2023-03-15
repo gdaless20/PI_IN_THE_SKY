@@ -94,8 +94,8 @@
 
 #### We built a capsule to hold our wiring which is shown below. We printed a smaller version for testing purposes then printed the final for our rocket. There were no major issues with this and it was the first thing we finished.
 
-![](urmom/Casingshaftimage.PNG)                                                              
-![](urmom/topp.png)
+![](urmom/shaft.png)                                                              
+![](urmom/t0p.png)
 
 ##### ***Im not even going to lie we were table at documentation towards the beginning of the project. We were super busy and documenting was the last thing on our mind. This bit us in the ass big-time later on.***
 
