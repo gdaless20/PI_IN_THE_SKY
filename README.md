@@ -11,7 +11,7 @@
 * [Project progression p1](#Project_progression_p1)
 * [Code 1](#Code_1)
 * [Code Review](#Code_Review)
-
+* [Code 2](#Code_2)
 
 
 
@@ -181,5 +181,80 @@ if time.monotonic()-data_time>20: # CHANGE THIS must take less than this time to
                break   #stop code taking values
 ```
 That would have been great except that we needed more than 10 seconds between flipping the Run switch and the rocket launching. We had to pack the rocket, get the drone in the air, close the capsule, attach the alligator cables and push the pin, which would never take only 10 seconds. So, to resolve this issue I made it so that we would have 6 minutes between the switch being flipped and the code starting to run which should have been plenty of time. However nothing runs smoothly for us, and there were many hiccups so we ended up launching with only 22 seconds left. Come to think of it, that could have been an issue with not getting any code from our launch, the seconds left would have made it wait 23 seconds before running the code and I don't think our launch lasted over 40 seconds, potentially a minute tops. However our battery was obliterated along with our circuitboard and capsule (and the rest of the rocket too I suppose) and that would make our code not work either. 
+
+
+
+
+
+
+### Code_2
+
+
+``` python
+import time #imports
+import board
+import digitalio
+import adafruit_mpl3115a2
+import busio
+import random
+
+button = digitalio.DigitalInOut(board.GP16) #adds in the button
+button.direction = digitalio.Direction.INPUT
+button.pull = digitalio.Pull.UP #incorperates the button into the circuit
+sda_pin = board.GP0  #sets up i2c
+scl_pin = board.GP1
+i2c = busio.I2C(scl_pin, sda_pin)
+sensor = adafruit_mpl3115a2.MPL3115A2(i2c) 
+
+time_list = []
+altitude_list = []  #sets up lists
+temperature_list = []
+new_data = 0
+
+led = digitalio.DigitalInOut(board.LED) 
+led.direction = digitalio.Direction.OUTPUT 
+led.value = True 
+
+while True: #if the button/switch is pressed this will happen
+
+
+     if button.value == False:
+         if new_data == 0:
+            data_time = time.monotonic()
+            new_data = 1
+         altitude = sensor.altitude #read altitude
+         altitude_list.append(sensor.altitude)
+         print("Altitude: {0:0.3f} meters".format(altitude)) #print altitude readings
+         temperature = sensor.temperature
+         temperature_list.append(sensor.temperature) #saves values for collection later
+         print("Temperature: {0:0.3f} degrees Celsius".format(temperature))
+         time_list.append(time.monotonic())
+         time.sleep(1.0)
+         
+         if time.monotonic()-data_time>20: # CHANGE THIS must take less than this time to launch after switch flipped
+            if abs(altitude_list[-1]-altitude_list[-10])<2: # CHANGE THIS rocket has landed
+               break   #stop code taking values
+#
+
+#store data to pico in csv
+print(time_list)
+print(altitude_list)
+print(temperature_list)
+
+with open(f"/{int(1000*random.random())}.txt", "a") as datalog:
+        for i in range(len(time_list)):
+            input_values = f" {time_list[i]}, {altitude_list[i]}, {temperature_list[i]}"
+            datalog.write('{}\n'.format(input_values))  #save all time, altitude, temperature values in seperate lines in pico
+            datalog.flush()
+            
+```
+
+
+
+
+
+
+
+
 
 
