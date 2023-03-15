@@ -63,7 +63,7 @@
 
 ![hytghfytrh](urmom/rocket1.jpg)
 
-![hytghfytrh](urmom/rocket2.jpg)
+![hytghfytrh](urmom/pink.jpg)
 
 
 ## Block Diagram
