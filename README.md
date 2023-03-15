@@ -12,7 +12,7 @@
 * [Code 1](#Code_1)
 * [Code Review](#Code_Review)
 * [Code 2](#Code_2)
-
+* [Code Review 2](#Code_Review_2)
 
 
 
@@ -250,7 +250,9 @@ with open(f"/{int(1000*random.random())}.txt", "a") as datalog:
 ```
 
 
+### Code_Review_2
 
+This code was essentially the same as the first code we used on our original launch. We still used boot.py and put our data in lists but the primary change was made due to the way we had no data after our first launch failed and shot into the ground at 20 mph. The data could have been lost due to the lack of power  going to the code, the massive brute impact of the pico hurtling into the ground at a high speed, or even human error when setting up the rocket for launch with switches or a wire coming loose. To help eliminate the lack of data even if a launch completely fails again, I made it so that the data values captured would immediately save to the pico at each reading instead of saving at the end. Now even if our rocket fails horribly again, we will have the values of it's final flight. I made sure the flight values would still save in lists but I also eliminated the countdown that stressed us out the first launch. We had a whole six minutes to launch which should have been plenty of time but still, it's me and gaby and who knows what could go wrong but obviously anything. So to eliminate that stress I made it so that the code would start running immediately after flipping the run switch. 
 
 
 
