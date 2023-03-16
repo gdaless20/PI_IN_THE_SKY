@@ -260,9 +260,9 @@ This code was essentially the same as the first code we used on our original lau
 
 ### Failure_Flics
 
-![](urmom/trashed.HEIC)
-![](urmom/wreck.JPG)
-![](urmom/wreck2.JPG)
+![](urmom/trashed.jpg)
+![](urmom/wrek.jpg)
+![](urmom/wrek2.jpg)
 
 
 
