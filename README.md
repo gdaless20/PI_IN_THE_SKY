@@ -264,7 +264,7 @@ This code was essentially the same as the first code we used on our original lau
 ![](urmom/wrek.jpg)
 ![](urmom/wrek2.jpg)
 ![](urmom/brokewiring1.jpg)
-![](urmom/brokewiring2.jpg)
+![](urmom/brokewirng2.jpg)
 ![](urmom/brokewiring3.jpg)
 
 
