@@ -286,4 +286,4 @@ Alright, so by now you've realized our "Big Launch" didn't exactly go to plan an
 
 ### Launch 3 Results
 
-![](urmom/graph.jpg)
+![](urmom/graph.PNG)
