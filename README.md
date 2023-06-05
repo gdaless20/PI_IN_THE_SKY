@@ -104,7 +104,7 @@
 #### Next we needed to do our wiring and coding. Ellen was primarily on coding and I (Gaby) was in charge of the wiring and soldering. Mistake number 1, when I was wiring I had a random diagram on a random piece of paper. That paper was then lost which is why the original wiring diagram will not be in this github. This is the wiring diagram that we drew when we had to redo our circuitboard (***We'll get to why that is later***). (WE LOST IT AGAIN!!!!!)
 
 ### Diagram
-![](urmom/Untitled drawing (2).pdf)
+![](urmom/deeznuts.pdf)
 
 ### Code_1
 
