@@ -62,11 +62,11 @@
 #### When building this A motor model rocket, we were initially not going to launch it and were making it as a prototype for our final project and to get a feel for missiles. That being said, when we decided to launch the rocket, we started using superglue to be more durable and stable for launching. The original glue and superglue did not withstand the launch, and the engine shot out the back of the rocket while in the air. The parachute was packed in too tightly and not connected to the missile, so it didn't deploy, and after losing the engine, the rocket plummeted to the ground and landed on its nose. 
 
 ![hytghfytrh](urmom/rock.gif)
-
-![hytghfytrh](urmom/t0p.png)
-
 ![hytghfytrh](urmom/pink.jpg)
 
+### First CAD Render
+![hytghfytrh](urmom/t0p.png)
+#### We started by measuring the inner diameter of SASHA and designed a lengthy tube that would be able to fit our circuit board.
 
 ## Block Diagram
 
@@ -105,6 +105,8 @@
 
 ### Diagram 
 [Click here](https://github.com/gdaless20/PI_IN_THE_SKY/blob/main/urmom/deeznuts.pdf)
+#### This was virtually our initial wiring. We then had to add switches to turn on the circuitry and data collection. The primary reason the switches are not included on the diagram is that they can be placed in virtually any connection. Additionally I(Gaby) dont entirely understand where the switches go as i wasn't the one to originally wire them.
+
 ### Code_1
 
 ``` python
@@ -298,4 +300,4 @@ This project definitely challenged us in so many ways and we worked on patience 
 
 https://youtu.be/cSt94-9AS5c
 
-***This includes launch videos and other important run throughs***
+***This includes launch videos and other important run throughs*** PLEASE WATCH THE WHOLE THING
