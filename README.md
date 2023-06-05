@@ -285,4 +285,4 @@ Alright, so by now you've realized our "Big Launch" didn't exactly go to plan an
 
 
 Our final launch went really well and all of our code and ciruitry worked perfectly and survived the rough landing (parachutes suck).
-Super excited that we got such great values, went up to 179 meters which
+Super excited that we got such great values, went up to 173 meters which is 567.5 feet which was a great way to top off our project for the year. Our rocket flew high and pretty straight for the most part until the descent, which was a relief because when we did our second launch with wimpy B motors at the school we went up like 8 feet and our two of our fins broke off so when it was time to launch this time we ripped off the remaining fins so it wouldn't go off course. Our first launch was with two E motors, the second was with B motors and the final was with D motors. 
