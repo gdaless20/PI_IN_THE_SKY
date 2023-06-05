@@ -99,7 +99,7 @@
 ![](urmom/t0p.png)                                                              
 ![](urmom/toppp.png)
 
-##### ***Im not even going to lie we were table at documentation towards the beginning of the project. We were super busy and documenting was the last thing on our mind. This bit us in the ass big-time later on.***
+##### ***Im not even going to lie we were terrible at documentation towards the beginning of the project. We were super busy and documenting was the last thing on our mind. This bit us in the ass big-time later on.***
 
 #### Next we needed to do our wiring and coding. Ellen was primarily on coding and I (Gaby) was in charge of the wiring and soldering. Mistake number 1, when I was wiring I had a random diagram on a random piece of paper. That paper was then lost which is why the original wiring diagram will not be in this github. This is the wiring diagram that we drew when we had to redo our circuitboard (***We'll get to why that is later***).
 
@@ -292,3 +292,9 @@ Super excited that we got such great values, went up to 173 meters which is 567.
 ### Final_Takeaways
 
 This project definitely challenged us in so many ways and we worked on patience and to cooperatively work with other peoples' schedules, whether it was for the launch date at the farm, or when Gaby and I were availbale to go launch. Gaby did the first circuitboard and when it was obliterated I made the second one, teaching us both soldering and a bit of wiring as well. I really learned how to code and it was less intimidating than I expected and thought it to be at the start of the year. Our code was affective and efficient and our values were perfect so our project finished very well because our Pi in the Sky had values. The amount of teamwork that went into this project was insane, as Gaby and I were constantly working together and making things a 2 person job, with Mr. Miller's help with code and random things that went wrong, as my coding problems simply couldn' t be the usual suspects but instead complex outlandish things neither of us had encountered before. 
+
+### Final_vlog
+
+https://youtu.be/cSt94-9AS5c
+
+***This includes launch videos and other important run throughs***
