@@ -14,7 +14,8 @@
 * [Code 2](#Code_2)
 * [Code Review 2](#Code_Review_2)
 * [Failed Launch Photos](#Failure_Flics)
-
+* [Failure Flics](#Failure_Flics)
+* [Launch 3 Results](#Launch_3_Results)
 
 
 ## Planning
@@ -270,19 +271,18 @@ This code was essentially the same as the first code we used on our original lau
 
 ### Unpacking_the_Big_Launch
 
-Alright, so by now you've realized our "Big Launch" didn't exactly go to plan and it's time to unpack what happened. Launch day was beautiful, very slight breeze, early morning around 10:30, lightly chilly. We arrived to the farm and set up in a massive field with a very large hill and surrounding forest. Our rocket was ready, we were ready, we even had an audience watching us. Clearly we hadn't practiced launching the rocket before because the set up took us forever and we kept running into issues, either with the drone not wanting to work, no viable filming set ups, and even packing the rocket was a struggle. We were trying to pack so much into this thin rocket shaft and not only was it difficut, it took a good amount of time so as I was shoving things down the body of the rocket trying to fit everything there was a countdown going on making everything more crazed and insane. However, we did manage to launch the rocket in time and it shot up beautifully, slightly tilted up the hill and away from the road because our round was not fully level though we did our best. It gained altitude incredibly fast but after a moment (10 seconds we later realized) the rocket ceased it's acceleration and instead began to plummet down, much to our surprise, dissappointment and confusion. However, only a moment later the second motor ignited and the rocket did a full loop-de-loop before shooting directly into the ground nose first.  Our circuitry was destroyed and the rocket was destroyed as well. That launch left us frustrated without a working rocket. 
+Alright, so by now you've realized our "Big Launch" didn't exactly go to plan and it's time to unpack what happened. Launch day was beautiful, very slight breeze, early morning around 10:30, lightly chilly. We arrived to the farm and set up in a massive field with a very large hill and surrounding forest. Our rocket was ready, we were ready, we even had an audience watching us. Clearly we hadn't practiced launching the rocket before because the set up took us forever and we kept running into issues, either with the drone not wanting to work, no viable filming set ups, and even packing the rocket was a struggle. We were trying to pack so much into this thin rocket shaft and not only was it difficut, it took a good amount of time so as I was shoving things down the body of the rocket trying to fit everything there was a countdown going on making everything more crazed and insane. However, we did manage to launch the rocket in time and it shot up beautifully, slightly tilted up the hill and away from the road because our round was not fully level though we did our best. It gained altitude incredibly fast but after a moment (10 seconds we later realized) the rocket ceased it's acceleration and instead began to plummet down, much to our surprise, dissappointment and confusion. However, only a moment later the second motor ignited and the rocket did a full loop-de-loop before shooting directly into the ground nose first.  Our circuitry was destroyed and the rocket was destroyed as well. That launch left us frustrated and without a working rocket. 
 
 
 
 
 
-
-
-
-
-
-
-
-### Launch 3 Results
+### Launch_3_Results
 
 ![](urmom/graph.PNG)
+
+
+
+
+Our final launch went really well and all of our code and ciruitry worked perfectly and survived the rough landing (parachutes suck).
+Super excited that we got such great values, went up to 179 meters which
